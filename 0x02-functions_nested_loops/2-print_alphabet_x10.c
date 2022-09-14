@@ -7,17 +7,20 @@
 * prints 10 times the alphabet
 * Return: 0
 */
-void print_alphabet_x10(void)
+int main(void)
 {
-	char c, i;
-
-	for (i = 0; i <= 9; i++)
+	void print_alphabet_x10(void)
 	{
-		for (c = 'a'; c <= 'z'; c++)
+		char c, i;
+
+		for (i = 0; i <= 9; i++)
 		{
-			_putchar(c);
+			for (c = 'a'; c <= 'z'; c++)
+			{
+				_putchar(c);
+			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 	return (0);
 }
