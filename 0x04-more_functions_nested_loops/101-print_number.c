@@ -5,10 +5,6 @@
 * print_number - Prints a number
 * @n: parameter
 */
-
-
-
-
 void print_number(int n)
 {
 	unsigned int i = n;
@@ -24,3 +20,4 @@ void print_number(int n)
 	}
 	putchar(i % 10 + '0');
 }
+
