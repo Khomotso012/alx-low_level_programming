@@ -4,7 +4,7 @@
 
 /**
 *print_rev - Prints a string in reverse order
-*@s: String 
+*@s: String
 *Return: Nothing
 */
 void print_rev(char *s)
@@ -17,3 +17,4 @@ void print_rev(char *s)
 	}
 	putchar(10);
 }
+
