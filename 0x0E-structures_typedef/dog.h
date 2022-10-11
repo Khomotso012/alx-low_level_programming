@@ -2,7 +2,7 @@
 #define DOG_H_FILE
 
 /**
-* struct dog - structure definition of a dog
+* struct dog - structure
 * @name: dog name
 * @age: dog age
 * @owner: owner
@@ -11,7 +11,7 @@ typedef struct dog
 {
 	char *name;
 	float age;
-	char *owner;
+	har *owner;
 } dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
